@@ -12,7 +12,7 @@ bool comp(string s1, string s2) {
 		return true;
 	else if(s1.length() == s2.length())
 		return s1 < s2;
-	return false;	//string 사전 역순 
+	return false;
 }
 
 int main()
